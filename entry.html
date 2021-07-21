@@ -1,0 +1,66 @@
+  <!DOCTYPE html>
+  <html>
+  <body>
+
+  <h2>회원가입 페이지</h2>
+
+  <link rel="stylesheet" href="./css/style.css">
+    <label for="username">아이디&nbsp;&nbsp;&nbsp;</label>
+    <input type="text" name="username"><br>
+    
+    <label for="email">이메일&nbsp;&nbsp;&nbsp;</label>
+    <input type="email" name="email"><br>
+  
+    <label for="pwd1">비밀번호</label>
+    <input type="password" id="pwd1" name="pwd"><br>
+    
+    <label for="pwd2">비번확인</label>
+    <input type="password" id="pwd2" name="pwd2"><br><br>
+
+  <div id="grid">  
+      <p>메일수신 동의</p>
+    
+      <input type="radio" name="arg">
+      <label for="html">동의</label>
+      <input type="radio" name="rej">
+      <label for="css">거절</label><br><br>
+    
+  </div>
+
+  <div id="grid">
+      <label for="checkbox">관심분야</label>
+  
+
+    <div id="article">
+      <input type="checkbox" name="field1" value="ai">
+      <label for="field1"> AI </label><br>
+      <input type="checkbox" id="field2" name="IOT" value="iot">
+      <label for="field2"> IoT</label><br>
+      <input type="checkbox" id="field3" name="BigData" value="bigdata">
+      <label for="field4"> Cloud</label><br>
+      <input type="checkbox" id="field4" name="Cloud" value="cloud">
+      <label for="field4"> Cloud</label><br><br><br>
+    </div>
+  </div>
+   
+    
+    <label for="part">역할</label>
+    <select id="part" name="part">
+    <option value="back-end">Back-End Developer</option>
+    <option value="front-end">Front-End Developer</option>
+    <option value="full-stack">Full-Stack Developer</option>
+    <option value="devops">DevOps Engineer</option>
+    <option value="analysis">Analysis</option>
+    <option value="architect">Architect</option>
+    </select><br><br>
+
+  
+    
+    <input type="button" id="join" value="가입">
+    <input type="reset" value="초기화">
+
+
+    <script src="join.js"></script>
+
+  </body>
+  </html>
